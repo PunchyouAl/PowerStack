@@ -4,35 +4,67 @@
 <head>
     <title>My Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">My Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <div class="container">
+        <div class="heroOuter">
+            <div class="logoHolder">
+                <img src="assets/Links/logo_Logo.svg" alt="Logo">
+            </div>
+
+            <div class="zapsOuter">
+                <div class="zapHolder" id="zapL">
+                    <img class="zap" src="assets/Links/Zap_Zap.svg" alt="zapL">
+                </div>
+                <div class="zapHolder" id="zapR">
+                    <img class="zap" src="assets/Links/Zap_Zap.svg" alt="zapR">
+                </div>
+            </div>
+            <div class="heroText">
+                <div class="mainHero">5.0 POWERSTACK</div>
+                <div class="subHero">PROMOTION</div>
+                <div class="date">February 15th - April 30th , 2023</div>
+                <div class="button">SUBMIT AN ELIGIBLE CLAIM TODAY</div>
             </div>
         </div>
-    </nav>
-    <h1>Welcome to my website</h1>
-    <p>This is a basic homepage.</p>
+    </div>
+    <section class="quadrants">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="text">
+                    <h1><span class="amount"><span class="dollar">$</span>10</span><br>PER BATTERY
+                        <BR>SKU SOLD</h1>
+                </div>
+                <div class="stackOuter">
+                    <img id="stackOne" src="assets/Links/BatteryPack.png" alt="">
+                    <img id="stackTwo" src="assets/Links/BatteryPack.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
+    </section>
+    <section class="tableSection">
+        <div class="container">
+            <h2>ELIGIBLE PRODUCTS</h2>
+            <div class="row">
+                <div class="col-md-10">
+                    <table class="table">
+
+                    </table>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

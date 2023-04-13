@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Helvetica Black';
+    src: url('assets/Fonts/HelveticaLTStd-Blk/HelveticaLTStd-Blk.woff2') format('woff2'), url('assets/Fonts/HelveticaLTStd-Blk/HelveticaLTStd-Blk.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Black Condensed';
+    src: url('assets/Fonts/HelveticaLTStd-BlkCond/HelveticaLTStd-BlkCond.woff2') format('woff2'), url('assets/Fonts/HelveticaLTStd-BlkCond/HelveticaLTStd-BlkCond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Compressed';
+    src: url('assets/Fonts/HelveticaLTStd-Comp/HelveticaLTStd-Comp.woff2') format('woff2'), url('assets/Fonts/HelveticaLTStd-Comp/HelveticaLTStd-Comp.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Condensed';
+    src: url('assets/Fonts/HelveticaLTStd-Cond/HelveticaLTStd-Cond.woff2') format('woff2'), url('assets/Fonts/HelveticaLTStd-Cond/HelveticaLTStd-Cond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Extra Compressed';
+    src: url('assets/Fonts/HelveticaLTStd-ExtraComp/HelveticaLTStd-ExtraComp.woff2') format('woff2'), url('assets/Fonts/HelveticaLTStd-ExtraComp/HelveticaLTStd-ExtraComp.woff') format('woff');
+}
+
+html {
+    font-size: 16px;
+}
+
+.mainHero {
+    font-family: "Helvetica Extra Compressed";
+    font-size: 7em;
+    color: #ffffff;
+    text-shadow: 4px 3px 7px BLACK;
+    line-height: 1;
+}
+
+.subHero {
+    font-family: "Helvetica Black";
+    font-size: 1.8em;
+    color: #fdd10d;
+    letter-spacing: 0.8em;
+}
+
+.heroText .date {
+    font-family: "Helvetica Condensed";
+    font-size: 1.6em;
+    color: #ffffff;
+}
+
+.heroText .button {
+    font-family: "Helvetica Extra Compressed";
+    font-size: 1.6em;
+    color: #000000;
+    background-color: #fdd10d;
+    display: inline-block;
+    width: auto;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.quadrants .col-md-6:nth-child(2) .text {
+    text-align: center;
+    font-family: "Helvetica Extra Compressed";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+}
+
+.quadrants .col-md-6:nth-child(2) .text h1 {
+    text-align: center;
+    font-family: "Helvetica Extra Compressed";
+    font-size: 4em;
+    line-height: 0.8;
+    color: #000000;
+}
+
+.quadrants .col-md-6:nth-child(2) .text h1 .amount {
+    font-size: 4em;
+    letter-spacing: -1rem;
+}
+
+.quadrants .col-md-6:nth-child(2) .text h1 .dollar {
+    font-size: 7rem;
+}

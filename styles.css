@@ -1,13 +1,89 @@
 body {
-    background-color: lightblue;
+    background-color: var(--bs-dark)!important;
+    overflow-x: hidden;
 }
 
-h1 {
-    color: white;
+.heroOuter {
+    height: 100vh;
+    background-image: url(assets/Links/home_HeroImg.png);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.logoHolder {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+}
+
+.heroText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5em;
     text-align: center;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+.stackOuter {
+    position: relative;
+    left: 50%;
+    height: 100%;
+}
+
+.stackOuter img {
+    position: absolute;
+    width: 35em;
+}
+
+#stackTwo {
+    left: 9em;
+    top: 13em;
+}
+
+.quadrants .col-md-6 {
+    min-height: 100vh;
+    position: relative;
+}
+
+.quadrants .col-md-6:nth-child(1),
+.quadrants .col-md-6:nth-child(4) {
+    background-color: #000000;
+}
+
+.quadrants .col-md-6:nth-child(2),
+.quadrants .col-md-6:nth-child(3) {
+    background-image: url(assets/Links/PowerStackPromo_dirt.png);
+    background-repeat: repeat;
+    background-size: 35%;
+}
+
+.zapHolder {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    bottom: 0;
+}
+
+#zapL {
+    left: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#zapR {
+    right: 0;
+}
+
+.zapHolder img {
+    position: absolute;
+    transform: translateX(40%);
+    bottom: 0;
 }
