@@ -27,6 +27,29 @@ html {
     font-size: 16px;
 }
 
+.costLine {
+    font-size: 7em;
+    line-height: 0.8;
+    -webkit-text-stroke: 1px #cfcccc;
+    color: transparent;
+    letter-spacing: -6.5px;
+    font-family: "Helvetica Extra Compressed";
+}
+
+.costLine span {
+    font-family: "Helvetica Extra Compressed";
+    font-size: 3em;
+}
+
+.eligible-header {
+    font-family: "Helvetica Extra Compressed";
+    font-size: 4em;
+    color: #ffc629;
+    text-shadow: 4px 3px 7px BLACK;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
 .mainHero {
     font-family: "Helvetica Extra Compressed";
     font-size: 7em;
@@ -83,4 +106,26 @@ html {
 
 .quadrants .col-md-6:nth-child(2) .text h1 .dollar {
     font-size: 7rem;
+}
+
+.sideOuter h1 {
+    font-family: 'Helvetica Extra Compressed';
+    font-size: 4em;
+    color: #ffffff;
+    line-height: 0.8;
+}
+
+.sideOuter span {
+    color: #ffc629;
+}
+
+.table td {
+    font-family: "Helvetica Condensed";
+    color: #ffffff;
+}
+
+.table .table-head td {
+    font-family: "Helvetica Black Condensed";
+    color: #000000;
+    font-size: 1.3em;
 }
